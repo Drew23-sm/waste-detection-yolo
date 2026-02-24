@@ -1,6 +1,6 @@
 # Waste Detection using YOLO (Computer Vision Project)
 
-Object detection system developed as part of an academic robotics project focused on automated waste recognition.
+Computer vision system developed for an intelligent waste-collecting robot, capable of detecting waste and trash bins using a YOLO-based object detection model.
 
 This repository contains the model training pipeline and the inference module used to evaluate detection performance.
 
@@ -9,6 +9,7 @@ This repository contains the model training pipeline and the inference module us
 ## Features
 
 * YOLO-based object detection training
+* Supervised learning workflow (dataset preparation, training, validation)
 * GPU training using Google Colab
 * Image / video inference testing
 * Bounding box visualization
@@ -28,9 +29,14 @@ This repository contains the model training pipeline and the inference module us
 
 ## Project Structure
 
-* `train.py` → Script used to train the object detection model
-* `test_reconocimiento.py` → Script used to test detection performance
-* `requirements.txt` → Required Python libraries
+train.py
+→ Script used to train the object detection model
+
+test_reconocimiento.py
+→ Script used to test detection performance
+
+requirements.txt
+→ Required Python libraries
 
 ---
 
@@ -41,6 +47,7 @@ This was a collaborative academic project.
 My responsibilities included:
 
 * Configuring the training environment
+* Participating in dataset preparation and labeling workflow
 * Running model training experiments
 * Implementing the detection testing script
 * Evaluating detection performance
@@ -59,15 +66,11 @@ Large datasets and trained weights are NOT included in this repository.
 
 Install dependencies:
 
-```
 pip install -r requirements.txt
-```
 
 Run detection test:
 
-```
 python test_reconocimiento.py
-```
 
 ---
 
